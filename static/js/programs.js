@@ -54,23 +54,5 @@ const PROGRAMS = [
     "cover_image": "static/images/Kiro_Bot/main.jpg",
     "category": "Android",
     "download_count": 315
-  },
-  {
-    "id": 3,
-    "name": "Mobile Manager",
-    "description": "Удобное приложение-компаньон для смартфонов для синхронизации с ПК.",
-    "full_description": "Mobile Manager объединяет ваш ПК и смартфон в единую экосистему. Передавайте файлы по зашифрованному Wi-Fi каналу, получайте уведомления прямо на экран монитора и управляйте музыкой удаленно. Никакие данные не проходят через облако — только прямое P2P соединение.",
-    "features": [
-      "Зашифрованная передача файлов без интернета.",
-      "Трансляция уведомлений с телефона на ПК.",
-      "Поддержка Android и iOS.",
-      "Полная анонимность и безопасность соединения."
-    ],
-    "screenshots": ["static/screenshots/manager_1.jpg", "static/screenshots/manager_2.jpg", "static/screenshots/manager_3.jpg"],
-    "version": "1.0.0-beta",
-    "link": "mobile_manager.zip",
-    "cover_image": "static/covers/manager_cover.jpg",
-    "category": "Android",
-    "download_count": 57
   }
 ];
