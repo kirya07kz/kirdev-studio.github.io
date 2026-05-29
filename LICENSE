@@ -1,0 +1,41 @@
+КОПИРАЙТ И ЛИЦЕНЗИОННОЕ СОГЛАШЕНИЕ (LICENSE)
+===========================================
+
+Права собственности (Copyright) © 2026 KirDev Studio. Все права защищены.
+
+Настоящий репозиторий содержит исходный код, графическое оформление, стили, скрипты и структуру официального веб-сайта проекта KirDev Studio.
+
+Условия использования и ограничения:
+
+1. Запрет на копирование и распространение:
+   Запрещается копировать, распространять, публиковать, размещать на сторонних серверах или хостингах (включая GitHub Pages, Vercel, Netlify и любые другие) исходный код данного сайта полностью или частично.
+
+2. Запрет на модификацию и выдачу за свой продукт:
+   Запрещается изменять исходный код сайта с целью создания аналогичных проектов, а также присваивать авторство дизайна, структуры или кода сайта.
+
+3. Исключительное использование:
+   Исходный код, содержащийся в данном репозитории, предназначен исключительно для официального функционирования сайта KirDev Studio по адресу: https://kirya07kz.github.io/kirdev-studio.github.io/ (и связанных официальных доменов/зеркал проекта).
+
+Любое несанкционированное использование кода, структуры или элементов интерфейса сайта является нарушением авторских прав и преследуется в соответствии с правилами платформы GitHub (DMCA Takedown Notice) и применимым законодательством об авторском праве.
+
+---
+
+PROPRIETARY LICENSE
+===================
+
+Copyright © 2026 KirDev Studio. All rights reserved.
+
+This repository contains the source code, design elements, styles, scripts, and layout of the official KirDev Studio website.
+
+Terms and Restrictions:
+
+1. Redistribution and Hosting Prohibited:
+   You may not copy, redistribute, republish, or host the source code of this website, in whole or in part, on any other server, hosting platform (including GitHub Pages, Vercel, Netlify, etc.), or repository.
+
+2. Modification and Plagiarism Prohibited:
+   You may not modify the source code to create similar websites or falsely claim ownership of the site's design, layout, or code.
+
+3. Exclusive Use:
+   This code is strictly for the official deployment and use of the KirDev Studio project.
+
+Any unauthorized use of this codebase will be reported for copyright infringement under GitHub's DMCA policy and appropriate copyright regulations.
