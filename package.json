@@ -1,0 +1,11 @@
+{
+  "name": "kirdev-studio",
+  "version": "1.4.0",
+  "description": "KirDev Studio static website",
+  "scripts": {
+    "dev": "npx -y browser-sync start --server --files '*.html, static/**/*' --port 8080"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.0"
+  }
+}

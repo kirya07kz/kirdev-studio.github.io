@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница не найдена (404) — KirDev Studio</title>
+    <meta name="description" content="Извините, запрашиваемая вами страница не существует, была удалена или временно недоступна.">
+    <link rel="icon" type="image/svg+xml" href="static/favicon_code.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/style.css?v=1.4">
+</head>
+<body>
+    <div class="glow-orb"></div>
+    <div class="glow-orb orb-2"></div>
+    
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">KirDev <span>Studio</span></a>
+            <button class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav" id="nav-links">
+                <a href="index.html">Главная</a>
+                <a href="programs.html">Программы</a>
+                <a href="https://t.me/kirdev_studio" target="_blank" rel="noopener noreferrer" class="btn-primary">Telegram канал</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="min-height: 80vh; display: flex; align-items: center; justify-content: center; padding: 120px 0;">
+            <div class="container hero-content" style="text-align: center;">
+                <h1 style="font-size: clamp(4rem, 15vw, 8rem); font-weight: 800; line-height: 1; margin-bottom: 20px;" class="text-gradient">404</h1>
+                <h2 style="font-size: 1.75rem; font-weight: 600; margin-bottom: 24px;">Страница не найдена</h2>
+                <p style="color: var(--text-secondary); max-width: 500px; margin: 0 auto 40px; font-size: 1.1rem; line-height: 1.6;">
+                    Извините, запрашиваемая вами страница не существует, была удалена или временно недоступна.
+                </p>
+                <div class="hero-actions">
+                    <a href="index.html" class="btn-primary lg">Вернуться на главную</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h2>KirDev Studio</h2>
+                    <p>Надежные и безопасные программы для ваших задач.</p>
+                </div>
+                <div class="footer-links">
+                    <p>&copy; 2026 KirDev Studio. Все права защищены.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLinks = document.getElementById('nav-links');
+
+        mobileMenu.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
